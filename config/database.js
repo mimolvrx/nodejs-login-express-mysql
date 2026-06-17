@@ -4,7 +4,7 @@
 const mysql = require('mysql2/promise');
 
 // Carrega as variáveis do .env
-require("doten").config();
+require("dotenv").config();
 
 // Criando a conexão com o banco de dados
 const conexao = mysql.createPool({
